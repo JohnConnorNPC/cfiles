@@ -1,0 +1,30 @@
+--- a/qtbase/src/corelib/global/qendian.h
++++ b/qtbase/src/corelib/global/qendian.h
+@@ -42,6 +42,7 @@
+ #ifndef QENDIAN_H
+ #define QENDIAN_H
+ 
++#include <limits>
+ #include <QtCore/qfloat16.h>
+ #include <QtCore/qglobal.h>
+ 
+--- a/qtbase/src/corelib/tools/qbytearraymatcher.h
++++ b/qtbase/src/corelib/tools/qbytearraymatcher.h
+@@ -40,6 +40,7 @@
+ #ifndef QBYTEARRAYMATCHER_H
+ #define QBYTEARRAYMATCHER_H
+ 
++#include <limits>
+ #include <QtCore/qbytearray.h>
+ 
+ QT_BEGIN_NAMESPACE
+--- a/qtbase/src/corelib/kernel/qvariant.h
++++ b/qtbase/src/corelib/kernel/qvariant.h
+@@ -40,6 +40,7 @@
+ #ifndef QVARIANT_H
+ #define QVARIANT_H
+ 
++#include <limits>
+ #include <QtCore/qatomic.h>
+ #include <QtCore/qbytearray.h>
+ #include <QtCore/qlist.h>
